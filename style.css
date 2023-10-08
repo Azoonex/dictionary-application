@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Bungee&family=Josefin+Sans&family=Overpass:wght@300&family=Poppins:ital,wght@0,300;0,400;1,100;1,200;1,300&family=Reggae+One&family=Roboto+Mono:wght@200&family=Victor+Mono:wght@300&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 87vh;
+    animation: chang 20s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    padding: 10px;
+    width: 50%;
+    border-radius: 13px;
+    background: rgb(224, 184, 227);
+    background: linear-gradient(
+        101deg,
+        rgb(31, 237, 237) 0%,
+        rgba(224, 184, 227, 1) 78%
+    );
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+    transition: all 0.55s;
+    width: 50%;
+    align-items: center;
+}
+
+#main {
+    padding: 0 20px;
+    padding-bottom: 10px;
+    width: 70%;
+}
+
+.main > input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid blue;
+    outline: none;
+    transition: all 0.55s;
+}
+
+.main > input:focus {
+    border-bottom: 3px solid blueviolet;
+}
+
+.btn {
+    border: none;
+    background-color: blueviolet;
+    padding: 5px 13px;
+    font-size: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.btn:active {
+    background-color: rgb(146, 70, 218);
+}
+
+.btn-vouis{
+    border: none;
+    background-color: transparent;
+}
+
+.main-vous {
+    display: flex;
+    flex-direction: column;
+}
+
+.voice {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: cetner;
+    margin: 20px 0;
+}
+
+.title {
+    font-size: 25px;
+}
+.bx {
+    font-size: xx-large;
+    color: black;
+    transition: 0.33s;
+    cursor: pointer;
+}
+.bx:hover {
+    color: blue;
+}
+
+.meaning {
+    color: aliceblue;
+}
+
+@keyframes chang {
+    0% {
+        background: #a8ff78; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+            to right,
+            #78ffd6,
+            #a8ff78
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+            to right,
+            #78ffd6,
+            #a8ff78
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        /* https://github.com/abasSolver/dictionary-application */
+    }
+
+    20% {
+        background: #8a2387; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+            to right,
+            #f27121,
+            #e94057,
+            #8a2387
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+            to right,
+            #f27121,
+            #e94057,
+            #8a2387
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    30% {
+        background: #654ea3; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+            to right,
+            #eaafc8,
+            #654ea3
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+            to right,
+            #eaafc8,
+            #654ea3
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    40% {
+        background: #544a7d; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+            to right,
+            #ffd452,
+            #544a7d
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+            to right,
+            #ffd452,
+            #544a7d
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    100% {
+        background: #8360c3; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+            to right,
+            #2ebf91,
+            #8360c3
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+            to right,
+            #2ebf91,
+            #8360c3
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
